@@ -51,7 +51,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://young-taiga-00182.herokuapp.com/addusers", requestOptions)
+fetch("https://young-taiga-00182.herokuapp.com/addusers")
   .then(response => response.text())
   .then(result => console.log(result))
   .catch(error => console.log('error', error));
